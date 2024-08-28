@@ -25,4 +25,30 @@ Luego compilamos con mvn clean package que limpia y empaqueta por decirlo asi, c
 
 ![alt text](image-2.png)
 
+Tambien funciona con el comando exec como tal que es el que configuramos en el pom:
+
+![alt text](image-4.png)
+
 Funciona en todos los casos de prueba con 0, 1 o 2 atributos, ahora designamos los archivos que vamos a utilizar:
+
+![alt text](image-3.png)
+
+Como indica en el laboratorio debemos hacer una clase con el oatron "factory" el cual indica que debemos utilizar la interfaz para crear nuestras clases.
+
+Ya hicimos el codigo, utilizando como parametro el enum podemos aplicar lo que debiamos hacer:
+
+![alt text](image-5.png)
+
+Ahora necesitamos cambiar la clase main en el archivo pom:
+
+![alt text](image-6.png)
+
+Con esto volvemos a hacer mvn clean package y ejecutamos con las pruebas de parametros a continuacion:
+
+![alt text](image-7.png)
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+Gracias a esto verificamos que solamente el ultimo funciona, con esto pues verificamos que los casos obvios donde no deberia funcionar efectivamente no funciona ya que entra a la excepcion, sin embargo tambien es sensible a mayusculas y demas, por lo tanto el enum solo funciona bien cuando el tipo es exactamente igual al designado alli.

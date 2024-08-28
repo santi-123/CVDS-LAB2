@@ -1,4 +1,5 @@
 edu\eci\cvds\patterns\shapes\Shape.class
+edu\eci\cvds\patterns\shapes\ShapeFactory$1.class
 edu\eci\cvds\patterns\shapes\concrete\Quadrilateral.class
 edu\eci\cvds\patterns\shapes\concrete\Triangle.class
 edu\eci\cvds\patterns\shapes\RegularShapeType.class
