@@ -33,7 +33,7 @@
           </execution>
         </executions>
         <configuration>
-          <mainClass>edu.eci.cvds.App</mainClass>
+          <mainClass>edu.eci.cvds.patterns.shapes.ShapeMain</mainClass>
           <arguments>
             <argument>${nombre}</argument>
           </arguments>
